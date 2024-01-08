@@ -23,7 +23,7 @@ This project is a personal portfolio website aimed at displaying my projects, sk
 
 To view this project, you can simply visit [demo link or GitHub Pages link if available]. If you wish to clone or fork the repository and run it locally:
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-portfolio.git`
+1. Clone the repository: `https://github.com/vibraniumSwaleh/_portfolio.git`
 2. Navigate to the project directory.
 3. Open `index.html` in your preferred web browser.
 
