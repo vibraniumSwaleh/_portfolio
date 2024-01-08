@@ -29,6 +29,7 @@ To view this project, you can simply visit [demo link or GitHub Pages link if av
 
 ## Folder Structure
 
+```md
 ├── assets
 ├── css/
 │ ├── styles.css
@@ -38,3 +39,4 @@ To view this project, you can simply visit [demo link or GitHub Pages link if av
 ├── html/
 │ └── index.html
 └── README.md
+```
