@@ -182,7 +182,7 @@ section {
     text-align: center;
 }
 
-.section__text_p2 {
+.section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -267,7 +267,7 @@ section {
 }
 
 .about-containers {
-    gap: 2rem;
+    gap: 1.5rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
@@ -275,6 +275,8 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .about-containers,
@@ -294,7 +296,6 @@ section {
 
 .details-container {
     padding: 1.5rem;
-    margin: 1.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -309,15 +310,14 @@ section {
 }
 
 .section__pic-container {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin: auto 0;
 }
 
 /* Experience Section */
 #experience {
     position: relative;
-    height: 70vh;
 }
 
 .experience-sub-title {
