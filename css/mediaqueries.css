@@ -44,6 +44,7 @@
 }
 
 @media screen and (max-width: 600px) {
+  #projcts,
   #contact,
   footer {
     height: 40vh;
@@ -97,4 +98,5 @@
   .text-container {
     text-align: justify;
   }
+
 }
