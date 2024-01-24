@@ -395,7 +395,6 @@ article .icon {
 
 .project-image-container {
   display: flex;
-  text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
