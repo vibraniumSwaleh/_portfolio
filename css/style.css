@@ -112,8 +112,15 @@ a:hover {
     list-style: none;
 }
 
-.menu-links.open{
+.menu-links.open {
     max-height: 300px;
+}
+
+.menu-links.open li a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .hamburger-icon.open span:first-child {
@@ -333,13 +340,22 @@ section {
     flex-direction: column;
 }
 
-.article-container {
+/* .article-container {
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+} */
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    text-align: initial;
+    justify-items: center;
+    
 }
 
 article {
