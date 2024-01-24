@@ -2,18 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Swaleh Hussein</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/mediaqueries.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo" id="logo">Swaleh Hussein</div>
+      <div id="#logo" class="logo">Swaleh Hussein</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -24,7 +25,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Swaleh Hussein</div>
+      <div id="#logo" class="logo">Swaleh Hussein</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -42,37 +43,33 @@
 
     <section id="profile">
       <div class="section__pic-container">
-        <img
-          src="../assets/sh-profile-pic.png"
-          alt="Profile Picture"
-          id="pro_pic"
-        />
+        <img id="profile-image" src="/assets/sh-profile-pic.png" alt="Swaleh Hussein profile picture" />
       </div>
       <div class="section__text">
-        <p class="section__text_p1">Hello, I'm</p>
+        <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Swaleh Hussein</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p2">Junior Frontend Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('../assets/Swaleh Hussein - Resume.pdf')"
+            onclick="window.open('./assets/Swaleh Hussein - Resume.pdf')"
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
-        <div class="social-container">
+        <div id="socials-container">
           <img
-            src="../assets/linkedin.png"
-            alt="My LinkedIn Profile"
+            src="/assets/linkedin.png"
+            alt="My LinkedIn profile"
             class="icon"
             onclick="location.href='https://www.linkedin.com/in/swalehhussein/'"
           />
           <img
-            src="../assets/github.png"
-            alt="My Github Profile"
+            src="/assets/github.png"
+            alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/vibraniumSwaleh'"
           />
@@ -87,7 +84,7 @@
         <div class="section__pic-container">
           <img
             src="/assets/Swaleh - Cropped.png"
-            alt="Profile Picture"
+            alt="Profile picture"
             class="about-pic"
           />
         </div>
@@ -96,40 +93,39 @@
             <div class="details-container">
               <img
                 src="/assets/experience.png"
-                alt="Experience Icon"
+                alt="Experience icon"
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>1+ years <br />Frontend Development</p>
+              <p> Entry Level <br />Junior Frontend Development</p>
             </div>
             <div class="details-container">
               <img
                 src="/assets/education.png"
-                alt="Experience Icon"
+                alt="Education icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Mechatronics Engineering <br />M.Sc. IoT</p>
+              <p>B.Sc. Bachelors Degree Mechatronic<br />M.Sc. Masters Degree - IoT <br />Front End Web Development - IBM</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              animi temporibus sed voluptas quidem voluptatum repellat
-              perspiciatis, eum quasi magnam quas eligendi. Nisi ducimus maiores
-              voluptate, tempora voluptates iusto dolorum minima temporibus rem,
-              labore deleniti mollitia, optio porro repellat nobis repudiandae
-              minus. Aspernatur nesciunt perspiciatis ducimus odio est ratione
-              debitis!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
             </p>
           </div>
         </div>
       </div>
       <img
         src="/assets/arrow.png"
-        alt="arrow"
+        alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='#experience'"
+        onclick="location.href='./#experience'"
       />
     </section>
 
@@ -140,11 +136,11 @@
         <div class="about-containers">
           <div class="details-container">
             <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
+            <div class="experience-article-container">
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
@@ -155,7 +151,7 @@
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
@@ -166,105 +162,94 @@
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Experienced</p>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>React JS</h3>
-                  <p>Experienced</p>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>Material UI</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
-            <div class="article-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="experience-article-container">
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="/assets/checkmark.png"
-                  alt="Experience Icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>PostgreSQL</h3>
-                  <p>Experienced</p>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>MonoDB</h3>
-                  <p>Experienced</p>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>REST API</h3>
-                  <p>Experienced</p>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
                 <img
                   src="/assets/checkmark.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
@@ -273,9 +258,9 @@
       </div>
       <img
         src="/assets/arrow.png"
-        alt="arrow"
+        alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='#projects'"
+        onclick="location.href='./#projects'"
       />
     </section>
 
@@ -285,7 +270,7 @@
       <div class="experience-details-container">
         <div class="project-containers">
           <div class="details-container color-container">
-            <div class="article-container">
+            <div class="project-image-container">
               <img
                 src="/assets/project-1.png"
                 alt="Project 1"
@@ -295,37 +280,37 @@
             <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
               <button
-                class="btn btn-color-2"
+                class="btn btn-color-2 project-btn"
                 onclick="location.href='https://www.github.com/vibraniumSwaleh'"
               >
                 Github
               </button>
               <button
-                class="btn btn-color-1"
-                onclick="location.href='https://github.com/vibraniumSwaleh'"
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.github.com/vibraniumSwaleh'"
               >
                 Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
+            <div class="project-image-container">
               <img
                 src="/assets/project-2.png"
-                alt="Project 1"
+                alt="Project 2"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="btn-container">
               <button
-                class="btn btn-color-2"
+                class="btn btn-color-2 project-btn"
                 onclick="location.href='https://www.github.com/vibraniumSwaleh'"
               >
                 Github
               </button>
               <button
-                class="btn btn-color-1"
+                class="btn btn-color-2 project-btn"
                 onclick="location.href='https://www.github.com/vibraniumSwaleh'"
               >
                 Live Demo
@@ -333,66 +318,61 @@
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
+            <div class="project-image-container">
               <img
                 src="/assets/project-3.png"
-                alt="Project 1"
+                alt="Project 3"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Project Three</h2>
             <div class="btn-container">
               <button
-                class="btn btn-color-2"
+                class="btn btn-color-2 project-btn"
                 onclick="location.href='https://www.github.com/vibraniumSwaleh'"
               >
                 Github
               </button>
               <button
-                class="btn btn-color-1"
+                class="btn btn-color-2 project-btn"
                 onclick="location.href='https://www.github.com/vibraniumSwaleh'"
               >
                 Live Demo
               </button>
             </div>
           </div>
-        
         </div>
       </div>
       <img
         src="/assets/arrow.png"
-        alt="arrow"
+        alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='#contact'"
+        onclick="location.href='./#contact'"
       />
     </section>
 
     <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-          <div class="contact-info-container">
-            <img
-              src="/assets/email.png"
-              alt="Email icon"
-              class="icon contact-icon email-icon"
-            />
-            <p>
-              <a href="mailto:hus.swaleh@yahoo.com"> hus.swaleh@yahoo.com </a>
-            </p>
-          </div>
-          <div class="contact-info-container">
-            <img
-              src="/assets/linkedin.png"
-              alt="LinkedIn icon"
-              class="icon contact-icon"
-            />
-            <p>
-              <a href="https://www.linkedin.com/in/swalehhussein/"> LinkedIn </a>
-            </p>
-          </div>
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:hus.swaleh@yahoo.com">hus.swaleh@yahoo.com</a></p>
         </div>
-      </section>
+        <div class="contact-info-container">
+          <img
+            src="/assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/swalehhussein/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
 
     <footer>
       <nav>
@@ -407,9 +387,9 @@
       </nav>
       <p>Copyright &#169; 2024 Swaleh Hussein. All Rights Reserved.</p>
     </footer>
-    <a href="#logo" class="back-to-top">
+    <script src="script.js"></script>
+    <a href="#profile" class="back-to-top">
       <span class="material-icons"> arrow_upward </span>
     </a>
-    <script src="/js/script.js"></script>
   </body>
 </html>
