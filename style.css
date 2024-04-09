@@ -157,7 +157,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  /* height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -173,7 +173,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .section__pic-container {
@@ -466,36 +466,4 @@ footer {
 
 footer p {
   text-align: center;
-}
-
-.back-to-top {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  border:  rgb(53, 53, 53) 0.1rem solid;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-  text-decoration: none;
-  transition: 0.2s ease-out;
-}
-
-.back-to-top span {
-    color: rgb(53, 53, 53);
-    font-size: 1.5rem;
-    transition: 0.2s ease-out;
-}
-
-.back-to-top:hover {
-    text-decoration: none;
-    background-color: rgb(53, 53, 53);
-}
-
-.back-to-top:hover span {
-    transform: translateY(-4px);
-    color: white;
-    border: none;
 }
